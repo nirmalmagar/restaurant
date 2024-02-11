@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+    <div class="row" id="topRow">
+        <p class="pt-3 text-light text-center">We're open and available for takeaway & delivery.<b>Order
+                Now</b></p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img class="mt-2" src="../images/logo.png" alt="logo">
+            </div>
+            <div class="col-10">
+                <ul class="nav py-3 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./Order.html">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./Company.html">Company</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./FAQ.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./Contact.html" style="color:#519797">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn">
+                            <!-- <box-icon id="navIcon" name='cart-add' flip='horizontal' color='#ffffff'></box-icon> -->
+                            <img src="../images/AddCartLogo.png" alt="">
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- contact -->
+        <form class="row g-3 mt-5">
+            <div class="col-md-4">
+                <label for="inputEmail4" class="form-label">Name</label>
+                <input type="text" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-4">
+                <label for="inputPassword4" class="form-label">Middle Name</label>
+                <input type="text" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-md-4">
+                <label for="inputPassword4" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Parmanent Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Temporary Address</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="enter your address">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid mt-5" id="container">
+        <div class="row">
+            <div class="col-md-4 px-5" id="footerFirst">
+                <img src="../images/logo.png" alt="">
+                <p class="fs-5">Takeaway & Delivery template
+                    for small - medium businesses.</p>
+            </div>
+            <div class="col-md-2 col-4 " id="footerTable">
+                <h5>Company</h5>
+                <p>Home</p>
+                <p>Order</p>
+                <p>FAQ</p>
+                <p>Contact</p>
+            </div>
+            <div class="col-md-2 col-4" id="footerTable">
+                <h5>Template</h5>
+                <p>Style Guide</p>
+                <p>Changelog</p>
+                <p>Licence</p>
+                <p>Webflow University</p>
+            </div>
+            <div class="col-md-2 col-4" id="footerTable">
+                <h5>Flowbase</h5>
+                <p>More Cloneables</p>
+            </div>
+        </div>
+        <hr>
+        <div id="endFooter">
+            <p>Built by <span>Flowbase</span> · Powered by <span> Webflow</span></p>
+            <box-icon id="footerIcons" name='github' type='logo' color='#0d9f40'></box-icon>
+            <box-icon id="footerIcons" name='instagram-alt' type='logo' color='#0d9f40'></box-icon>
+            <box-icon id="footerIcons" type='logo' name='linkedin-square' type='logo' color='#0d9f40'></box-icon>
+        </div>
+    </div>
+</body>
+
+</html>

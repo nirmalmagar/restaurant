@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Itim', cursive; */
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+
+:root {
+    --main-color: rgb(84, 151, 151);
+    --bg-color: rgb(214, 245, 245);
+}
+
+/* section 1 / top row  */
+#topRow {
+    background-color: var(--main-color);
+}
+
+/* section 2 nav bar */
+img {
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+.nav-item a {
+    font-size: 1rem;
+}
+
+/* section-3 home page */
+#homeImg {
+    width: 100%;
+    height: 100%;
+}
+
+#sectionThree {
+    margin-bottom: 30rem;
+}
+
+span {
+    color: var(--main-color);
+}
+
+#homeTxt {
+    font-weight: bold;
+}
+
+#homeBtn {
+    color: white;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 13px;
+}
+
+.btn {
+    background-color: var(--main-color);
+}
+
+#homeTxtCol {
+    width: 2.188rem;
+}
+
+#homeTxtIcon {
+    font-size: large;
+}
+
+/* section 4 */
+#sectionFour {
+    margin-top: 10rem;
+    background: var(--bg-color) url(../images/02-bg.png) no-repeat center;
+    background-position-x: 80px;
+}
+
+#sectionFour img {
+    width: 85%;
+    height: 35rem;
+    margin: 5rem 0;
+}
+
+#sectionFour #fourH1 {
+    font-size: 4rem;
+    margin-top: 16rem;
+}
+
+/* section 5 */
+
+#secFiImg {
+    height: 20rem;
+}
+
+#secFivH {
+    color: var(--main-color);
+}
+
+/* Section 6 */
+#sixFirstH {
+    margin: 3rem 0 2rem 0;
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+}
+
+#secFirstCont p {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+#secFirstCont button {
+    padding: 5px 24px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--main-color);
+    background-color: white;
+}
+
+#secFirstCont button:nth-child(1) {
+    background-color: var(--main-color);
+    color: white;
+}
+
+#sixButton {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 3rem;
+}
+
+#secCont {
+    background: var(--bg-color);
+}
+
+#secSix {
+    display: flex;
+    gap: 2rem;
+    margin: 0 30px;
+}
+
+#secSixCont {
+    background-color: white;
+    display: flex;
+    margin-bottom: 3rem;
+    border: 2px solid transparent;
+    /* box-shadow: 0px 0px 10px gray; */
+    align-items: center;
+    padding: 20px 15px 20px 10px;
+    border-radius: 8px;
+}
+
+#sixImg img {
+    min-height: 8rem;
+    min-width: 8rem;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+
+#secSixTex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#secSixTex h1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#dollar {
+    color: var(--main-color);
+}
+
+#butOne {
+    padding: 5px 40px 5px 7px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#butTwo {
+    padding: 5px 7px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 5px;
+    background: var(--main-color);
+    color: white;
+}
+
+#secSixBtn {
+    display: flex;
+    justify-content: center;
+}
+
+#sixBtn {
+    padding: 8px 22px;
+    margin-bottom: 4rem;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/* section 7 */
+
+#sectionSeven {
+    display: flex;
+    margin-top: 8rem;
+}
+
+#sectionSeven img {
+    width: 80%;
+    height: 70%;
+}
+
+#sectionSeven #rightPart {
+    margin-top: 10rem;
+}
+
+#sectionSeven #rightPart h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+#sectionSeven #rightPart p {
+    margin: 1rem 0 3rem 0;
+    /* text-size: 2rem; */
+    color: black;
+}
+
+#sectionSeven {
+    padding: 8px 22px;
+    margin-bottom: 4rem;
+    /* background-color: var(--main-color); */
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#rightPart #sevenBtn {
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    font-size: 20px;
+    font-weight: normal;
+    border-radius: 8px;
+}
+
+/* section nine */
+#sectionNine {
+    display: flex;
+    margin: 8rem 0 2rem 0;
+}
+
+#sectionNine img {
+    height: 100%;
+    width: 97%;
+}
+
+#sectionNine #rightPart {
+    /* border-box: box-sizing; */
+    background: rgb(140, 199, 199);
+    padding-top: 100px;
+    padding-left: 6%;
+
+    /* padding-left:5rem; */
+}
+
+#sectionNine #rightPart h1 span {
+    color: var(--main-color);
+    /* margin-left:5rem; */
+
+}
+
+#sectionNine #rightPart h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    width: 80%;
+    /* padding-right:13rem; */
+}
+
+#sectionNine #rightPart button {
+    margin-top: 3rem;
+    padding: 0.7rem 2.5rem;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 10px;
+    color: var(--main-color);
+    font-weight: normal;
+}
+
+/* footer */
+#container {
+    padding-top: 6rem;
+    padding-left: 5rem;
+    /* margin-bottom:6rem; */
+    background-color: var(--bg-color);
+}
+
+#container img {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+
+#footerTable {
+    line-height: 2rem;
+}
+
+#footerTable h5 {
+    margin-bottom: 2rem;
+}
+
+#endFooter {
+    display: flex;
+    margin: 3.5rem 0 3rem 0;
+
+}
+
+#endFooter p {
+    margin-right: 40rem;
+}
+
+#footerIcons {
+    width: 2rem;
+    height: 2rem;
+    overflow: hidden;
+    margin-left: 1rem;
+}
+
+#endFooter p {
+    margin-left: 2rem;
+}
