@@ -52,6 +52,14 @@
 }
 
 @media(max-width: 992px) {
+    /* section two */
+
+
+    /* section three */
+    #homeTxt {
+        font-size: 3rem;
+    }
+
     #homeImg {
         max-width: 100%;
     }
@@ -65,7 +73,7 @@
     }
 
     #homeBtn {
-        font-size: 2px;
+        font-size: 10px;
     }
 
     #secFiImg {
@@ -81,12 +89,21 @@
         height: 30rem;
     }
 
+    #sectionFour #fourH1 {
+        font-size: 3.5rem;
+    }
+
     #sectionSeven #rightPart {
         margin-top: 8rem;
     }
 
     #sectionSeven #rightPart h1 {
         font-size: 2rem;
+    }
+
+    #fourH1 b {
+        font-weight: bolder;
+        font-size: 3rem;
     }
 
     /* footer */
@@ -124,11 +141,18 @@
     }
 
     #secFiImg {
-        height: 70%;
+        height: 60%;
     }
 
     #secSix {
         flex-direction: column;
+    }
+
+    #homeImg {
+        width: 100%;
+        height: 100%;
+        padding-left: 8rem;
+        padding-top: 4rem;
     }
 
     /* section seven */
@@ -148,7 +172,7 @@
 
     #rightPart,
     button {
-        margin: 0 5rem;
+        margin: none;
     }
 
     /* section nine */
@@ -173,6 +197,16 @@
     #sixButton button {
         display: flex;
     }
+
+    #sectionNine #rightPart {
+        background: rgb(140, 199, 199);
+        padding-top: 100px;
+        /* padding-left: 6%; */
+        padding-left: 5rem;
+        padding-bottom: 6rem;
+        margin-top: 1rem;
+    }
+
 }
 
 @media(max-width: 576px) {
@@ -200,5 +234,13 @@
 
     #endFooter p {
         margin-right: 0;
+    }
+
+
+}
+
+@media(max-width: 380px) {
+    #secFiImg {
+        height: 50%;
     }
 }
