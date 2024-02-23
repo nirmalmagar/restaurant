@@ -127,6 +127,9 @@
 }
 
 @media(max-width: 768px) {
+    #menuIcons{
+        display:none;
+    }
     #colOne {
         text-align: center;
     }

@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/animation.css">
     <link rel="icon" href="../images/logo.svg" type="images/x-icon">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
 
 <body>
@@ -20,10 +22,10 @@
     <div class="container-lg">
         <!-- section 2 / navBar -->
         <div class="row">
-            <div class="col-3" id="sectionTwo">
+            <div class=" col-1 col-md-3" id="sectionTwo">
                 <img class="mt-2 img-fluid pe-auto" src="../images/logo.svg" alt="logo">
             </div>
-            <div class="col-9">
+            <div class="col-md-9 col-11">
                 <ul class="nav py-3 justify-content-end">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#" style="color:#519797">Home</a>
@@ -46,7 +48,10 @@
                             <img src="../images/AddCartLogo.png" alt="">
                         </button>
                     </li>
+
                 </ul>
+                <box-icon name='menu' id="menuIcons" color='#549797'></box-icon>
+                <box-icon name='x-circle' id="menuIcons" type='solid' color='#549797'></box-icon>
             </div>
         </div>
         <!-- section 3 / home page-->
@@ -73,7 +78,7 @@
                     <p><span>4.8 out of 5</span> based on 2000+ reviews</p>
                 </div>
             </div>
-            <div class="col-md-6 ">
+            <div class="col-md-6">
                 <img id="homeImg" src="../images/homeImg.png" alt="homeImage">
             </div>
         </div>

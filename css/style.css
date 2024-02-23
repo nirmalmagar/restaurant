@@ -14,6 +14,14 @@
     --bg-color: rgb(214, 245, 245);
 }
 
+/* Menu icons */
+#menuIcons {
+    width: 2rem;
+    height: 2rem;
+    overflow: hidden;
+    display: none;
+}
+
 /* section 1 / top row  */
 #topRow {
     background-color: var(--main-color);
@@ -339,89 +347,4 @@ span {
 
 #endFooter p {
     margin-left: 2rem;
-}
-
-/* animation */
-
-#colOne #homeTxt{
-    position: relative;
-    animation-iteration-count: 1;
-    animation-name: fadeInUp;
-    animation-duration: 2s;
-}
-
-#colOne #threeP,
-#homeTxtCol,
-#homeTxt p {
-    position:relative;
-    animation-iteration-count:1;
-    animation-name:fadeInLeft;
-    animation-duration:2s;
-}
-#homeBtnTxt button {
-    position:relative;
-    animation-iteration-count:1;
-    animation-name:fadeInRight;
-    animation-duration:2s;
-}
-#lastPart{
-    position:relative;
-    animation-iteration-count:1;
-    animation-name:fadeInBottom;
-    animation-duration:2s;
-}
-/* #homeTxtCol {
-    homeTxtColposition:relative;
-    animation-iteration-count:1;
-    animation-name:fadeInBottom;
-    animation-duration:2s;
-} */
-@keyframes fadeInUp{
-    0% {
-        top: -50px;
-        opacity: 0;
-    }
-    100% {
-        top: 0px;
-        opacity: 1;
-    }
-}
-@keyframes fadeInLeft{
-    0%{
-        left:-50px;
-        opacity:0;
-    }
-    100%{
-        left:0px;
-        opacity:1;
-    }
-}
-@keyframes fadeInRight{
-    0%{
-        right:-50px;
-
-    }
-    100%{
-        right:0px;
-    }
-}
-@keyframes fadeInBottom{
-    0%{
-        bottom:-50px;
-        opacity:0;
-    }
-    100%{
-        bottom:0px;
-        opacity:1;
-    }
-}
-@keyframes fadeInBottom{
-    0%{
-        bottom:-50px;
-        opacity:0;
-    }
-    100%{
-        bottom:0px;
-        opacity:1;
-    }
 }
